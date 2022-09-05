@@ -1,0 +1,26 @@
+
+    <nav>
+        <a href="index html"><img src="assets/images/admin.png"></a>
+        <div class="nav-links" id="navLinks">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="search products">
+            </div>
+            <span class="fas fa-search  search-icon"></span>
+    <!-- Again search : font awesome 4 icons copy : times & menu -->
+     <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+             <ul>
+                <li class="nav-item" routerLinkActive="active" >
+                    <a routerLink="./home" >HOME</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="./about">ABOUT</a>
+                </li>
+                <li class="nav-item" routerLinkActive="active">
+                    <a routerLink="./contact">CONTACT US</a>
+                </li>
+                <li class="nav-item" >
+                    <a routerLink="" (click)="logout()">Logout</a>
+                </li>
+             </ul> 
+        </div>
+    </nav>
